@@ -1,1 +1,3 @@
 # Elevate-Lab-Task-1
+
+As part of Task given by Elevate lab. I performed data preprocessing on the titanic dataset that involved handling missing values, encoding categorical features, detection and removal of outliers, and standardization. Unwanted features where also removed from the dataset that either had too many missing values or too many unique values depicting that they do not hold much importance.  Outlier was detected using boxplot and removed using the InterQuartile Range(IQR) method. The missing values where filled using mean for numerical feature and most_frequent for categorical feature. OneHotEncoder was used to transform categorical data into numerical data.
